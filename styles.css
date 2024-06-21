@@ -1,0 +1,113 @@
+/* Basic reset to remove default margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the main heading */
+#app-title {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the drum buttons */
+button {
+    padding: 20px 40px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px #d9534f;
+    margin: 10px 0; /* Add vertical margin to separate the buttons */
+}
+
+#kick-button {
+    background-color: #ff6347;
+}
+#snare-button {
+    background-color:#00FF00;
+}
+
+#hihat-button {
+    background-color:#000000;
+}
+
+#tom-button {
+    background-color: #00BFFF;
+}
+
+#ride-button {
+    background-color: #ffdd00;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+
+
+/* Style for the footer */
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#footer p {
+    margin: 0;
+}
+
+/* Style the kick button 
+#kick-button {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px #d9534f;
+}
+
+#kick-button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+
+/* Style the ride button 
+#ride-button {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #ffdd00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px #d9534f;
+    margin: 20px 0; /* Add vertical margin to separate the buttons
+}
+
+#ride-button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+*/
+
